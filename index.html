@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eandc Cleaning | Galway 24/7 Cleaning</title>
+    <meta
+      name="description"
+      content="Eandc Cleaning delivers 24/7 residential and commercial cleaning services across Galway, including Eyre Square and H91."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ["Inter", "ui-sans-serif", "system-ui", "sans-serif"],
+            },
+            colors: {
+              accent: "#008080",
+              mist: "#f4f7f8",
+              navy: "#153447",
+            },
+            boxShadow: {
+              soft: "0 16px 40px rgba(2, 32, 40, 0.12)",
+            },
+            backgroundImage: {
+              halo: "radial-gradient(circle at top, rgba(0,128,128,0.18), transparent 55%)",
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+
+      .reveal {
+        opacity: 0;
+        transform: translateY(28px);
+        transition: opacity 700ms ease, transform 700ms ease;
+      }
+
+      .reveal.visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    </style>
+  </head>
+  <body class="bg-white font-sans text-slate-800 antialiased">
+    <header class="sticky top-0 z-50 border-b border-slate-200/80 bg-white/90 backdrop-blur">
+      <nav class="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 lg:px-8">
+        <a href="#" class="text-xl font-extrabold tracking-tight text-navy">Eandc Cleaning</a>
+        <button
+          id="menuToggle"
+          class="inline-flex items-center justify-center rounded-lg border border-slate-300 p-2 text-slate-700 md:hidden"
+          aria-label="Toggle menu"
+        >
+          ☰
+        </button>
+        <ul id="menu" class="hidden items-center gap-6 text-sm font-semibold text-slate-600 md:flex">
+          <li><a class="transition hover:text-accent" href="#features">Features</a></li>
+          <li><a class="transition hover:text-accent" href="#services">Services</a></li>
+          <li><a class="transition hover:text-accent" href="#trust">Trust</a></li>
+          <li><a class="transition hover:text-accent" href="#contact">Contact</a></li>
+        </ul>
+        <button
+          data-open-quote
+          class="hidden rounded-full bg-accent px-5 py-2 text-sm font-semibold text-white shadow-soft transition hover:brightness-110 md:inline-flex"
+        >
+          Get a Free Quote
+        </button>
+      </nav>
+      <div id="mobileMenu" class="mx-5 mb-4 hidden rounded-xl border border-slate-200 bg-white p-4 md:hidden">
+        <a class="block py-2 font-medium text-slate-700" href="#features">Features</a>
+        <a class="block py-2 font-medium text-slate-700" href="#services">Services</a>
+        <a class="block py-2 font-medium text-slate-700" href="#trust">Trust</a>
+        <a class="block py-2 font-medium text-slate-700" href="#contact">Contact</a>
+        <button
+          data-open-quote
+          class="mt-3 inline-flex rounded-full bg-accent px-4 py-2 text-sm font-semibold text-white"
+        >
+          Get a Free Quote
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="relative overflow-hidden bg-mist bg-halo">
+        <div class="absolute -left-24 -top-20 h-80 w-80 rounded-full bg-accent/10 blur-3xl"></div>
+        <div class="absolute -right-16 bottom-6 h-72 w-72 rounded-full bg-navy/10 blur-3xl"></div>
+
+        <div class="relative mx-auto grid max-w-7xl gap-12 px-5 py-16 lg:grid-cols-[1.1fr_0.9fr] lg:items-center lg:px-8 lg:py-24">
+          <div class="reveal">
+            <p class="mb-6 inline-flex rounded-full border border-accent/20 bg-white px-4 py-1.5 text-sm font-semibold text-accent">
+              Serving Galway, Eyre Square & H91
+            </p>
+            <h1 class="text-4xl font-extrabold leading-tight text-navy sm:text-5xl lg:text-6xl">
+              Galway’s Premier 24/7 Cleaning Service
+            </h1>
+            <p class="mt-5 max-w-2xl text-lg text-slate-600 sm:text-xl">
+              Professional cleaning solutions in Eyre Square and beyond, tailored to your schedule.
+            </p>
+            <div class="mt-8 flex flex-wrap items-center gap-4">
+              <button
+                data-open-quote
+                class="rounded-full bg-accent px-7 py-3 text-base font-bold text-white shadow-soft transition hover:-translate-y-0.5 hover:brightness-110"
+              >
+                Get a Free Quote
+              </button>
+              <a
+                href="#services"
+                class="rounded-full border border-slate-300 bg-white px-7 py-3 text-base font-semibold text-slate-700 transition hover:border-accent hover:text-accent"
+                >View Services</a
+              >
+            </div>
+            <div class="mt-9 grid max-w-xl grid-cols-3 gap-4 text-sm">
+              <div class="rounded-xl bg-white/80 p-4 shadow-soft">
+                <p class="text-2xl font-extrabold text-navy">24/7</p>
+                <p class="mt-1 text-slate-600">Live response</p>
+              </div>
+              <div class="rounded-xl bg-white/80 p-4 shadow-soft">
+                <p class="text-2xl font-extrabold text-navy">98%</p>
+                <p class="mt-1 text-slate-600">Client retention</p>
+              </div>
+              <div class="rounded-xl bg-white/80 p-4 shadow-soft">
+                <p class="text-2xl font-extrabold text-navy">H91</p>
+                <p class="mt-1 text-slate-600">Local coverage</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="reveal rounded-3xl border border-white/70 bg-white/80 p-6 shadow-soft backdrop-blur">
+            <p class="text-sm font-semibold uppercase tracking-wide text-accent">Quick Quote</p>
+            <h2 class="mt-2 text-2xl font-bold text-navy">Tell us what you need</h2>
+            <form id="heroQuoteForm" class="mt-5 space-y-4">
+              <input
+                required
+                class="w-full rounded-xl border border-slate-300 px-4 py-3 outline-none transition focus:border-accent"
+                placeholder="Name"
+              />
+              <input
+                required
+                type="email"
+                class="w-full rounded-xl border border-slate-300 px-4 py-3 outline-none transition focus:border-accent"
+                placeholder="Email"
+              />
+              <select required class="w-full rounded-xl border border-slate-300 px-4 py-3 outline-none transition focus:border-accent">
+                <option value="">Service Needed</option>
+                <option>Office Cleaning</option>
+                <option>Residential Deep Cleans</option>
+                <option>Specialized Sanitization</option>
+              </select>
+              <button
+                type="submit"
+                class="w-full rounded-xl bg-navy px-5 py-3 font-semibold text-white transition hover:bg-accent"
+              >
+                Request Callback
+              </button>
+            </form>
+            <p id="heroQuoteSuccess" class="mt-3 hidden text-sm font-medium text-accent">Thanks! We’ll contact you shortly.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="mx-auto max-w-7xl px-5 py-20 lg:px-8">
+        <div class="mb-10 text-center reveal">
+          <h2 class="text-3xl font-bold text-navy">Why clients choose Eandc Cleaning</h2>
+          <p class="mt-3 text-slate-600">Dependable people, proven standards, and spotless outcomes.</p>
+        </div>
+        <div class="grid gap-6 md:grid-cols-3">
+          <article class="reveal rounded-2xl border border-slate-200 bg-white p-7 shadow-soft">
+            <h3 class="text-xl font-semibold text-navy">24/7 Availability</h3>
+            <p class="mt-3 text-slate-600">
+              We cover urgent and scheduled cleans at any hour to keep your spaces ready and welcoming.
+            </p>
+          </article>
+          <article class="reveal rounded-2xl border border-slate-200 bg-white p-7 shadow-soft">
+            <h3 class="text-xl font-semibold text-navy">Experienced Staff</h3>
+            <p class="mt-3 text-slate-600">
+              Each team member is trained for precision, safety, and consistently high-quality cleaning.
+            </p>
+          </article>
+          <article class="reveal rounded-2xl border border-slate-200 bg-white p-7 shadow-soft">
+            <h3 class="text-xl font-semibold text-navy">Residential & Commercial Focus</h3>
+            <p class="mt-3 text-slate-600">
+              We adapt our methods to homes, offices, and mixed-use sites without compromising quality.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="services" class="bg-mist py-20">
+        <div class="mx-auto max-w-7xl px-5 lg:px-8">
+          <div class="mb-10 reveal flex items-end justify-between gap-4 flex-wrap">
+            <div>
+              <h2 class="text-3xl font-bold text-navy">Services designed for your needs</h2>
+              <p class="mt-3 text-slate-600">Choose your plan and we’ll tailor timing and scope around you.</p>
+            </div>
+            <button data-open-quote class="rounded-full bg-accent px-5 py-2 text-sm font-semibold text-white">Book a Service</button>
+          </div>
+          <div class="grid gap-6 md:grid-cols-3">
+            <article class="reveal rounded-2xl bg-white p-7 shadow-soft">
+              <h3 class="text-xl font-semibold text-navy">Office Cleaning</h3>
+              <p class="mt-3 text-slate-600">After-hours and daytime office cleaning for reception, desks, kitchens, and shared areas.</p>
+            </article>
+            <article class="reveal rounded-2xl bg-white p-7 shadow-soft">
+              <h3 class="text-xl font-semibold text-navy">Residential Deep Cleans</h3>
+              <p class="mt-3 text-slate-600">Comprehensive home deep-clean packages for move-ins, move-outs, and seasonal refreshes.</p>
+            </article>
+            <article class="reveal rounded-2xl bg-white p-7 shadow-soft">
+              <h3 class="text-xl font-semibold text-navy">Specialized Sanitization</h3>
+              <p class="mt-3 text-slate-600">Targeted disinfection protocols for hygiene-critical spaces and high-touch environments.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="trust" class="mx-auto max-w-7xl px-5 py-20 lg:px-8">
+        <div class="grid gap-6 lg:grid-cols-2">
+          <div class="reveal rounded-2xl border border-slate-200 p-7 shadow-soft">
+            <h2 class="text-2xl font-bold text-navy">Customer testimonials</h2>
+            <p class="mt-3 text-slate-600">“Placeholder for real customer stories and ratings from Galway homeowners and businesses.”</p>
+            <p class="mt-2 text-sm text-slate-500">— Replace with verified quotes and logos</p>
+          </div>
+          <div class="reveal rounded-2xl border border-slate-200 p-7 shadow-soft">
+            <h2 class="text-2xl font-bold text-navy">Service Area</h2>
+            <p class="mt-3 text-slate-600">Proudly serving Galway, including Eyre Square and nearby areas throughout H91.</p>
+            <a href="#contact" class="mt-5 inline-flex rounded-full border border-accent px-5 py-2 text-sm font-semibold text-accent">Check availability</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="bg-navy text-white">
+      <div class="mx-auto flex max-w-7xl flex-col gap-5 px-5 py-10 lg:flex-row lg:items-center lg:justify-between lg:px-8">
+        <div>
+          <h2 class="text-lg font-semibold">Eandc Cleaning</h2>
+          <p class="mt-1 text-sm text-slate-200">1 Eyre Square, Galway, H91 ED70</p>
+        </div>
+        <div class="flex flex-wrap gap-3">
+          <a
+            href="mailto:hello@eandccleaning.ie"
+            class="inline-flex items-center rounded-full border border-white/40 px-5 py-2 text-sm font-semibold transition hover:bg-white hover:text-navy"
+            >Contact us</a
+          >
+          <button data-open-quote class="rounded-full bg-white px-5 py-2 text-sm font-semibold text-navy transition hover:brightness-95">
+            Get a Free Quote
+          </button>
+        </div>
+      </div>
+    </footer>
+
+    <div id="quoteModal" class="fixed inset-0 z-[60] hidden items-center justify-center bg-slate-900/60 p-4">
+      <div class="w-full max-w-lg rounded-2xl bg-white p-6 shadow-soft">
+        <div class="mb-4 flex items-center justify-between">
+          <h3 class="text-2xl font-bold text-navy">Get a Free Quote</h3>
+          <button id="closeModal" class="rounded p-2 text-slate-500 hover:bg-slate-100" aria-label="Close quote form">✕</button>
+        </div>
+        <form id="modalQuoteForm" class="space-y-3">
+          <input required class="w-full rounded-xl border border-slate-300 px-4 py-3" placeholder="Full name" />
+          <input required type="tel" class="w-full rounded-xl border border-slate-300 px-4 py-3" placeholder="Phone" />
+          <input required type="email" class="w-full rounded-xl border border-slate-300 px-4 py-3" placeholder="Email" />
+          <textarea required rows="3" class="w-full rounded-xl border border-slate-300 px-4 py-3" placeholder="Tell us about your cleaning needs"></textarea>
+          <button class="w-full rounded-xl bg-accent px-5 py-3 font-semibold text-white">Submit Request</button>
+        </form>
+        <p id="modalSuccess" class="mt-3 hidden text-sm font-medium text-accent">Quote request submitted successfully.</p>
+      </div>
+    </div>
+
+    <script>
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("visible");
+              observer.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0.15 }
+      );
+
+      document.querySelectorAll(".reveal").forEach((el) => observer.observe(el));
+
+      const modal = document.getElementById("quoteModal");
+      const closeModalButton = document.getElementById("closeModal");
+      const openButtons = document.querySelectorAll("[data-open-quote]");
+
+      const openModal = () => modal.classList.replace("hidden", "flex");
+      const closeModal = () => modal.classList.replace("flex", "hidden");
+
+      openButtons.forEach((button) => button.addEventListener("click", openModal));
+      closeModalButton.addEventListener("click", closeModal);
+      modal.addEventListener("click", (event) => {
+        if (event.target === modal) closeModal();
+      });
+
+      const heroQuoteForm = document.getElementById("heroQuoteForm");
+      const heroQuoteSuccess = document.getElementById("heroQuoteSuccess");
+      heroQuoteForm.addEventListener("submit", (event) => {
+        event.preventDefault();
+        heroQuoteForm.reset();
+        heroQuoteSuccess.classList.remove("hidden");
+      });
+
+      const modalQuoteForm = document.getElementById("modalQuoteForm");
+      const modalSuccess = document.getElementById("modalSuccess");
+      modalQuoteForm.addEventListener("submit", (event) => {
+        event.preventDefault();
+        modalQuoteForm.reset();
+        modalSuccess.classList.remove("hidden");
+      });
+
+      const menuToggle = document.getElementById("menuToggle");
+      const mobileMenu = document.getElementById("mobileMenu");
+      menuToggle.addEventListener("click", () => {
+        mobileMenu.classList.toggle("hidden");
+      });
+
+      mobileMenu.querySelectorAll("a").forEach((link) => {
+        link.addEventListener("click", () => mobileMenu.classList.add("hidden"));
+      });
+    </script>
+  </body>
+</html>
